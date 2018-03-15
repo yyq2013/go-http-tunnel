@@ -1,0 +1,32 @@
+### Tunnel
+.tunnel/
+build/
+
+### Go
+*.cov
+*.prof
+*.mprof
+
+### IntelliJ
+.idea/
+*.iml
+
+### Vim
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+/cmd/
+/tunnelmock/
+/id/
+/log/
+/vendor/
+/testdata/
+/benchmark/
+/proto/
